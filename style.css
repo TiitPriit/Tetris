@@ -1,0 +1,31 @@
+body {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#gameBoard {
+    border-collapse: collapse;
+}
+
+#gameBoard td {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+#gameBoard .block {
+    background-color: #000;
+}
