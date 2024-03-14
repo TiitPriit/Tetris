@@ -73,7 +73,7 @@ function removeCompletedLines() {
             linesRemoved++;
         }
     }
-    score += linesRemoved * 10; // Increase the score
+    score += linesRemoved * 100; // Increase the score
     updateScore(); // Update the score display
 }
 
